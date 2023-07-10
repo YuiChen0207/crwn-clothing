@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/crwn-clothing/static/css/main.3b3c04b1.css",
+    "main.js": "/crwn-clothing/static/js/main.ca90b49b.js",
+    "static/js/787.d7ece244.chunk.js": "/crwn-clothing/static/js/787.d7ece244.chunk.js",
+    "static/media/claudio-schwarz-628M6D91QX0-unsplash.jpg": "/crwn-clothing/static/media/claudio-schwarz-628M6D91QX0-unsplash.db777abc24e13ea920e2.jpg",
+    "static/media/force-majeure-00tlC0Clfrs-unsplash.jpg": "/crwn-clothing/static/media/force-majeure-00tlC0Clfrs-unsplash.06df84033a165aa54325.jpg",
+    "static/media/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg": "/crwn-clothing/static/media/clark-street-mercantile-qnKhZJPKFD8-unsplash.f2f343a6d35fc3770406.jpg",
+    "static/media/shopping-bag.svg": "/crwn-clothing/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/slick.svg": "/crwn-clothing/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/crwn-clothing/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/crwn-clothing/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/crwn-clothing/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/crown.svg": "/crwn-clothing/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
+    "index.html": "/crwn-clothing/index.html",
+    "main.3b3c04b1.css.map": "/crwn-clothing/static/css/main.3b3c04b1.css.map",
+    "main.ca90b49b.js.map": "/crwn-clothing/static/js/main.ca90b49b.js.map",
+    "787.d7ece244.chunk.js.map": "/crwn-clothing/static/js/787.d7ece244.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3c04b1.css",
+    "static/js/main.ca90b49b.js"
+  ]
+}
