@@ -1,0 +1,23 @@
+.slick-slider {
+  margin-top: 70px;
+
+  .banner-image {
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+    margin: 0 auto;
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    pointer-events: none;
+
+    @media (max-width: 768px) {
+      height: 60vh;
+    }
+  }
+
+  .banner-image:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}

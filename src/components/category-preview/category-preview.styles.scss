@@ -1,0 +1,41 @@
+.category-preview-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  &.first-element {
+    margin-top: 70px;
+  }
+
+  h2 {
+    margin: 25px auto;
+  }
+
+  .title {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #433e3e;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    border: 1px solid;
+
+    &:hover {
+      background-color: #413f3f;
+      color: #ff6f00;
+    }
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .preview {
+      grid-template-columns: 1fr;
+    }
+  }
+}

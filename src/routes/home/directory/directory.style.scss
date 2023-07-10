@@ -1,0 +1,14 @@
+.directory-container {
+  width: 100%;
+  margin: 70px auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .directory-container > * {
+    flex: 1 1 100%;
+  }
+}
