@@ -16,7 +16,11 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -48,6 +52,7 @@ const Navigation = () => {
                 location.pathname === "/shop" ? "active" : ""
               }`}
               to="/shop"
+              onClick={closeMenu}
             >
               Shop
             </Link>
@@ -56,6 +61,7 @@ const Navigation = () => {
                 location.pathname === "/ranking" ? "active" : ""
               }`}
               to="/ranking"
+              onClick={closeMenu}
             >
               Ranking
             </Link>
@@ -69,6 +75,7 @@ const Navigation = () => {
                   location.pathname === "/auth" ? "active" : ""
                 }`}
                 to="/auth"
+                onClick={closeMenu}
               >
                 Sign In
               </Link>

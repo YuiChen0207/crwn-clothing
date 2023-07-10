@@ -7,7 +7,8 @@ const CategoryItem = ({ category }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/shop"); 
+    navigate(`/shop/${title.toLowerCase()}`);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (

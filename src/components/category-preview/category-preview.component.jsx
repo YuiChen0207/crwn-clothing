@@ -7,6 +7,7 @@ const CategoryPreview = ({ title, products }) => {
 
   const handleCategoryClick = () => {
     navigate(`/shop/${title.toLowerCase()}`);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const isFirstElement = title === "hats";
