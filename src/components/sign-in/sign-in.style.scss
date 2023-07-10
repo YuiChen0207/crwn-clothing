@@ -12,3 +12,32 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .sign-in-container {
+    width: 100%;
+
+    h2,
+    span {
+      text-align: center;
+    }
+
+    .buttons-container {
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+
+      button {
+        margin: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .sign-in-container {
+    .buttons-container button{
+      min-width: unset;
+    }
+  }
+}
