@@ -11,11 +11,12 @@ import { CartProvider } from "./contexts/cart.context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+const basename = process.env.PUBLIC_URL;
 //inside UserProvider can be access context
 //ProductsProvider can reach up the UserProvider
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <UserProvider>
         <CategoriesProvider>
           <CartProvider>
