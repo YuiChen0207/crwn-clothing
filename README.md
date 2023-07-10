@@ -1,3 +1,6 @@
+![image](https://github.com/YuiChen0207/crwn-clothing/assets/113350158/74152cbe-1b5d-4e05-a4d8-b9586597a98f)
+
+
 # CRWN Clothing
 
 CRWN Clothing is an e-commerce website that offers a seamless online shopping experience for fashionable clothing and accessories. The project is built using the React technology stack, including React, React Router, Scss, and Firebase.
