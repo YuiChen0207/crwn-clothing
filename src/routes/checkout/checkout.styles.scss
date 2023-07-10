@@ -29,3 +29,21 @@
     font-size: 36px;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .checkout-container {
+    width: 100%;
+
+    .header-block {
+      width: 100%;
+      font-size: 12px;
+
+      &:last-child {
+        width: 20%;
+      }
+    }
+    .total {
+      font-size: 24px;
+    }
+  }
+}
