@@ -4,11 +4,12 @@ CRWN Clothing is an e-commerce website that offers a seamless online shopping ex
 
 ## Features
 
-- Users can browse different categories of clothing and accessories, including men's wear, women's wear, shoes, and hats, among others.
-- Users can add items to their shopping cart and manage the quantity of items in the cart.
-- Users can proceed to checkout, and provide shipping information.
-- Users can create a personal account and log in using email and password.
-- Users can view their order history and order details.
+- Browse a wide range of clothing and accessories categories, including men's wear, women's wear, shoes, hats, and more.
+- Add items to the shopping cart and manage the quantity of items.
+- Proceed to checkout to complete the purchase.
+- Create a personal account and log in using email and password. Also, users can log in using their Google account.
+- View order history and details.
+- Explore product rankings and popularity.
 
 ## Installation and Setup
 
