@@ -1,4 +1,6 @@
 ![image](https://github.com/YuiChen0207/crwn-clothing/assets/113350158/74152cbe-1b5d-4e05-a4d8-b9586597a98f)
+![image](https://github.com/YuiChen0207/crwn-clothing/assets/113350158/c85332db-eaab-497a-9e37-25c15700afaf)
+
 
 
 # CRWN Clothing
@@ -7,6 +9,7 @@ CRWN Clothing is an e-commerce website that offers a seamless online shopping ex
 
 ## Features
 
+- Responsive Web Design (RWD) implementation to adapt the layout and content of the website based on the user's device and screen size.
 - Browse a wide range of clothing and accessories categories, including men's wear, women's wear, shoes, hats, and more.
 - Add items to the shopping cart and manage the quantity of items.
 - Proceed to checkout to complete the purchase.
